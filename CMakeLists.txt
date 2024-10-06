@@ -3,6 +3,8 @@ project(casadi_eigen)
 
 add_compile_options(-std=c++17)
 
+set(CMAKE_BUILD_TYPE Release)
+
 find_package(catkin REQUIRED COMPONENTS)
 
 find_package(casadi REQUIRED)
